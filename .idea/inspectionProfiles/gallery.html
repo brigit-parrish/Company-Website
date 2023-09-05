@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Company Name -->
+<div class = "company-name">
+    J. Kerrutt Landscape & Design
+</div>
+<!-- Navbar section -->
+<div class="navbar">
+    <a href="index.html">ABOUT US</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="contact.html">CONTACT US</a>
+</div>
+<div class="gallery-container">
+    <img src="CompanyImages/slate-patio-sidehouse.jpg" id="gallery-image" alt="Gallery image">
+    <button class="back" onclick="changeImage(-1)">&#10094;</button>
+    <button class="forward" onclick="changeImage(1)">&#10095;</button>
+</div>
+<!-- Footer section -->
+<footer>
+    <div class="footer-content">
+        <p>Owner: Douglas & Jackie Parrish</p>
+        <p>Phone: (360)779-6592</p>
+    </div>
+</footer>
+<!-- Link to your JavaScript file -->
+<script src="PhotoGallery.js"></script>
+</body>
+</html>
